@@ -11,6 +11,18 @@ Rails.application.routes.draw do
       get :mentionable
     end
   end
+  
+   resources :conversations do
+    resources :messages
+
+    collection do
+      get :inbox
+      get :all, action: :index
+      get :sent
+      get :trash
+    end
+  end
+
   resources :events, except: [:edit, :update]
 
   authenticated :user do

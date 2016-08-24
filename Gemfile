@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.6'
+gem 'rails', '4.2.7'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -56,6 +56,9 @@ gem 'faker'
 gem 'populator'
 gem 'auto_html', '~>1.6.4'
 gem 'sanitize'
+
+gem 'mailboxer'
+gem 'mini_magick'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
