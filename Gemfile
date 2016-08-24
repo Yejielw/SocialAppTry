@@ -38,6 +38,7 @@ group :production do
   gem 'rails_12factor'
   gem 'fog'
   gem 'fog-aws'
+  gem 'puma',         '3.4.0'
 end
 
 gem 'devise'
