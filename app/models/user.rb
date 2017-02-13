@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
   acts_as_followable
   acts_as_messageable
   
-   def name
+  def name
     "User #{id}"
   end
   
